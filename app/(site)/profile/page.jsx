@@ -50,7 +50,7 @@ export default function ProfilePage() {
             <ButtonLink href="mailto:es.huluca@gmail.com">Email me</ButtonLink>
             <ButtonLink href="/gresume.pdf">Game Dev CV</ButtonLink>
             <ButtonLink href="/wresume.pdf">Web Dev CV</ButtonLink>
-            <ButtonLink href="https://github.com/lancelot1926" external>GitHub</ButtonLink>
+            <ButtonLink href="https://github.com/EmirkanHuluca" external>GitHub</ButtonLink>
             <ButtonLink href="https://www.linkedin.com/in/emirkan-huluca-966aa9225/" external>LinkedIn</ButtonLink>
           </div>
         </div>
@@ -108,6 +108,7 @@ export default function ProfilePage() {
             videoUrl="/videos/necro-demo.mp4"
             tags={["Unity", "C#", "2D", "Deckbuilder", "Turn-based"]}
             neonColors={["#ffffffff","#ffffffff","#ffffffff","#ffffffff"]}
+            gitLink="https://github.com/EmirkanHuluca/Necro-Ruler"
           />
           <ProjectCard
             title="Storym"
@@ -117,6 +118,7 @@ export default function ProfilePage() {
             videoUrl="/videos/storym-demo.mp4"
             tags={[".NET", "C#", "React", "Next.js", "Social"]}
             neonColors={["#ffffffff","#ffffffff","#ffffffff","#ffffffff"]}
+            gitLink="https://github.com/EmirkanHuluca/Storym"
           />
           <ProjectCard
             title="Hediyem"
@@ -126,6 +128,7 @@ export default function ProfilePage() {
             videoUrl="/videos/ecommerce-demo.mp4"
             tags={[".NET", "C#", "React", "Next.js", "Iyzico"]}
             neonColors={["#ffffffff","#ffffffff","#ffffffff","#ffffffff"]}
+            gitLink="https://github.com/EmirkanHuluca/E-Commerce"
           />
           <ProjectCard
             title="Project Elysium"
@@ -135,6 +138,7 @@ export default function ProfilePage() {
             videoUrl="/videos/elysium-demo.mp4"
             tags={["Unity", "C#", "3D", "RPG", "PC"]}
             neonColors={["#ffffffff","#ffffffff","#ffffffff","#ffffffff"]}
+            gitLink="https://github.com/EmirkanHuluca/Project-Elysium"
           />
         </div>
       </section>

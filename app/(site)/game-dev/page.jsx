@@ -24,6 +24,7 @@ return (
   imageUrl="/images/elysium.jpg"
   videoUrl="/videos/elysium-demo.mp4"
   tags={["Unity", "C#", "3D", "RPG", "PC"]}
+  gitLink="https://github.com/EmirkanHuluca/Project-Elysium"
 />
 
 <ProjectCard
@@ -33,6 +34,7 @@ return (
   imageUrl="/images/necro.jpg"
   videoUrl="/videos/necro-demo.mp4"
   tags={["Unity", "C#", "2D", "Deckbuilder", "Turn-based"]}
+  gitLink="https://github.com/EmirkanHuluca/Necro-Ruler"
 />
 
 <ProjectCard
@@ -42,6 +44,7 @@ return (
   imageUrl="/images/infernotrigger.jpg"
   videoUrl="/videos/infernotrigger-demo.mp4"
   tags={["Unity", "C#", "2D", "Mobile", "Action"]}
+  gitLink="https://github.com/EmirkanHuluca/Inferno-Trigger"
 />
 
 <ProjectCard
@@ -60,6 +63,7 @@ return (
   imageUrl="/images/allstar.jpg"
   videoUrl="/videos/allstar-demo.mp4"
   tags={["Unity", "C#", "2D", "JRPG", "PC"]}
+  gitLink="https://github.com/EmirkanHuluca/allStarsTheGameSource"
 />
 
 <ProjectCard
@@ -69,6 +73,7 @@ return (
   imageUrl="/images/palette.jpg"
   videoUrl="/videos/palette-demo.mp4"
   tags={["Unity", "C#", "3D", "Mobile", "Casual"]}
+  gitLink="https://github.com/EmirkanHuluca/Palette-Drop"
 />
 
 </div>

@@ -25,6 +25,7 @@ return (
   imageUrl="/images/ecommerce.jpg"
   videoUrl="/videos/ecommerce-demo.mp4"
   tags={[".NET", "C#", "React", "Next.js", "Iyzico"]}
+  gitLink="https://github.com/EmirkanHuluca/E-Commerce"
 />
 
 <ProjectCard
@@ -34,6 +35,7 @@ return (
   imageUrl="/images/storym.jpg"
   videoUrl="/videos/storym-demo.mp4"
   tags={[".NET", "C#", "React", "Next.js", "Social"]}
+  gitLink="https://github.com/EmirkanHuluca/Storym"
 />
 
 <ProjectCard
@@ -43,6 +45,7 @@ return (
   imageUrl="/images/branco.jpg"
   videoUrl="/videos/branco-demo.mp4"
   tags={["React", "Next.js", "Contentlayer", "MDX", "ISR"]}
+  gitLink="https://github.com/EmirkanHuluca/Branco"
 />
 
 <ProjectCard
@@ -52,6 +55,7 @@ return (
   imageUrl="/images/song.jpg"
   videoUrl="/videos/song-demo.mp4"
   tags={["Next.js", "React", "Tailwind", "Vercel"]}
+  gitLink="https://github.com/EmirkanHuluca/Song"
 />
 
 </div>
