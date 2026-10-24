@@ -101,6 +101,17 @@ export default function ProfilePage() {
 
         <div className="grid gap-5 md:grid-cols-2">
           <ProjectCard
+            title="Cards of Calling"
+            subtitle="Roguelike deckbuilder (Released on Steam)"
+            description="Summon and command a pack of creatures in tactical turn-based combat. Minion synergies and sacrifice effects, enemy intents, and a 3D overworld with elites, shops, and events."
+            imageUrl="/images/cardsofcalling.jpg"
+            videoUrl="/videos/cardsofcalling-demo.mp4"
+            tags={["Unity", "C#", "3D", "Deckbuilder", "Roguelike", "PC"]}
+            neonColors={["#ffffffff","#ffffffff","#ffffffff","#ffffffff"]}
+            liveLink="https://store.steampowered.com/app/4541270/Cards_Of_Calling/"
+            liveLabel="Steam"
+          />
+          <ProjectCard
             title="Necro Ruler"
             subtitle="Roguelike deckbuilder (WIP)"
             description="Built with my students: dungeon flow, deck mechanics, and enemy AI. Modular systems for fast content iteration."

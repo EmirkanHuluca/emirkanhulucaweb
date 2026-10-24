@@ -38,6 +38,7 @@ export default function ProjectCard({
   videoUrl,
   href,             // your existing “View details →” link (internal or external)
   liveLink,         // optional separate “Live” button (external or internal)
+  liveLabel = "Live", // text for the live button, e.g. "Steam"
   gitLink,          // NEW: GitHub link (owner/repo or full URL)
   tags = [],
   neonColors,
@@ -134,13 +135,26 @@ export default function ProjectCard({
             ))}
           </div>
 
+          {/* Live / store button (push to right) */}
+          {live && (
+            <a
+              href={live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-auto inline-flex items-center gap-2 rounded-md border border-neutral-800 px-3 py-1.5 text-sm hover:bg-white/10"
+            >
+              <span>{liveLabel}</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          )}
+
           {/* GitHub button (push to right) */}
           {gh && (
             <a
               href={gh}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-auto inline-flex items-center gap-2 rounded-md border border-neutral-800 px-3 py-1.5 text-sm hover:bg-white/10"
+              className={`${live ? "" : "ml-auto "}inline-flex items-center gap-2 rounded-md border border-neutral-800 px-3 py-1.5 text-sm hover:bg-white/10"
             >
               <GithubIcon />
               <span>GitHub</span>

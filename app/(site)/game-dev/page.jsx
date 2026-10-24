@@ -18,6 +18,17 @@ return (
 <Section title="Highlights">
 <div className="grid md:grid-cols-2 gap-6">
 <ProjectCard
+  title="Cards of Calling"
+  subtitle="Roguelike deckbuilder (Released on Steam)"
+  description="Summon and command a pack of creatures in tactical turn-based combat. Minion synergies and sacrifice effects, enemy intents, and a 3D overworld with elites, shops, and events."
+  imageUrl="/images/cardsofcalling.jpg"
+  videoUrl="/videos/cardsofcalling-demo.mp4"
+  tags={["Unity", "C#", "3D", "Deckbuilder", "Roguelike", "PC"]}
+  liveLink="https://store.steampowered.com/app/4541270/Cards_Of_Calling/"
+  liveLabel="Steam"
+/>
+
+<ProjectCard
   title="Project Elysium"
   subtitle="Top-down RPG (WIP)"
   description="New real-time combat system and a handcrafted 3D world. Focus on feel, AI behaviors, and encounter pacing."
