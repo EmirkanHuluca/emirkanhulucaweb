@@ -154,7 +154,7 @@ export default function ProjectCard({
               href={gh}
               target="_blank"
               rel="noopener noreferrer"
-              className={`${live ? "" : "ml-auto "}inline-flex items-center gap-2 rounded-md border border-neutral-800 px-3 py-1.5 text-sm hover:bg-white/10"
+              className={`${live ? "" : "ml-auto "}inline-flex items-center gap-2 rounded-md border border-neutral-800 px-3 py-1.5 text-sm hover:bg-white/10`}
             >
               <GithubIcon />
               <span>GitHub</span>
